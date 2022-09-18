@@ -56,6 +56,45 @@ header {
   100% { opacity: 100%; margin-right: 0%;}
 }
 
+.rule1 {
+  animation-name: rule;
+  animation-duration: 1s;
+  animation-direction: normal;
+}
+
+.rule2 {
+  animation-name: rule;
+  animation-duration: 1.5s;
+  animation-direction: normal;
+
+}
+
+.rule3 {
+  animation-name: rule;
+  animation-duration: 2s;
+  animation-direction: normal;
+
+}
+
+.rule4 {
+  animation-name: rule;
+  animation-duration: 2.5s;
+  animation-direction: normal;
+
+}
+
+.rule5 {
+  animation-name: rule;
+  animation-duration: 3s;
+  animation-direction: normal;
+
+}
+
+@keyframes rule {
+  0% {opacity: 0%;}
+  100% {opacity: 100%;}
+}
+
 @media screen and (max-width: 1480px) {
   .warframe_video {
     width: 631px;
