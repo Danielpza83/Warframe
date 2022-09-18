@@ -1,0 +1,82 @@
+html {
+  background-image: url(/Imagenes/background/railjack.jpg);
+  background-size: 40%, 60%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+header {
+  background-color: #F8F9FA;
+  margin-bottom: 50px;
+}
+
+#warframe_logo {
+  width: 400px; 
+  height: 100px;
+}
+
+.warframe_video {
+  display: flex;
+  
+}
+
+.barukk {
+  display:flex;
+  justify-content: end;
+  animation-name: in-left;
+  animation-duration: 4s;
+  padding-left: 20px;
+  animation-direction: normal;
+}
+
+@keyframes in-left {
+  0% { opacity: 0; margin-left: 100%;}
+  100% { opacity: 100%; margin-left: 0%;}
+}
+
+.mesa {
+  animation-name: in-right;
+  animation-duration: 5s;
+  animation-direction: normal;
+}
+
+@keyframes in-right {
+  0% { opacity: 0; margin-right: 100%;}
+  100% { opacity: 100%; margin-right: 0%;}
+}
+
+@media screen and (max-width: 1480px) {
+  .warframe_video {
+    width: 631px;
+    height: 355px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .warframe_video {
+    width: 473px;
+    height: 266px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .warframe_video {
+    width: 315px;
+    height: 178px;
+  }
+  .mesa {
+    opacity: 0%;  
+  }
+
+  .barukk {
+    opacity: 0%;  
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .warframe_video {
+    width: 79px;
+    height: 44px;
+  }
+}
