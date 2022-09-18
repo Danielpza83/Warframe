@@ -86,8 +86,8 @@ header {
 
 @media screen and (max-width: 420px) {
   .warframe_video {
-    width: 79px;
-    height: 44px;
+    width: 280px;
+    height: 180px;
   }
 }
 
