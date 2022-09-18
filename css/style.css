@@ -1,9 +1,19 @@
-html {
-  background-image: url(/Imagenes/background/railjack.jpg);
-  background-size: 40%, 60%;
+body {
+  background: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/clans/4437469/74c74cc4ba3ef390e8cf7e11bddeea25857a6c5a.jpg");
+  background-color: white;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
+}
+
+.guild {
+  background: url("C:/Users/dmaestre/Desktop/Coderhouse/Imagenes/background/backgroundguild.webp");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+
 }
 
 header {
@@ -79,4 +89,12 @@ header {
     width: 79px;
     height: 44px;
   }
+}
+
+fieldset {
+  color: black;
+}
+
+footer {
+  margin-top: 20px;
 }
