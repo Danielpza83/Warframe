@@ -1,0 +1,17 @@
+.missions {
+  background: $background_missions_image;
+  background-color: $background_color_default;
+  background-repeat: $background_repeat;
+  background-attachment: $background_attachment;
+  background-size: $background_size;
+  color: $font_color;
+  p {
+    font-size: 20px;
+  }
+}
+
+.missions_form {
+  display: flex;
+  justify-content: center;
+  font-size: large;
+}

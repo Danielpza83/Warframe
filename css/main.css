@@ -33,7 +33,7 @@ body {
   animation-direction: normal; }
 
 .guild {
-  background: url("../Imagenes/background/backgroundguild.webp");
+  background: url("../Imagenes/background/background_guild.webp");
   background-color: white;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -82,6 +82,21 @@ body {
 #fashion_form {
   width: 40%;
   height: 100%; }
+
+.missions {
+  background: url("../Imagenes/background/background_missions.png");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white; }
+  .missions p {
+    font-size: 20px; }
+
+.missions_form {
+  display: flex;
+  justify-content: center;
+  font-size: large; }
 
 @keyframes excalibur_animation {
   0% {
