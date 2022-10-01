@@ -1,0 +1,49 @@
+@media screen and (max-width: 1480px) {
+  .warframe_video {
+    width: 631px;
+    height: 355px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .warframe_video {
+    width: 473px;
+    height: 266px;
+  }
+  .excalibur {
+    width: 100%;
+    height: 100%;
+    
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .warframe_video {
+    width: 315px;
+    height: 178px;
+    justify-content: center;
+  }
+  .mesa {
+    display: none;  
+  }
+
+  .barukk {
+    display: none;  
+  }
+
+  .excalibur {
+    width: 280px;
+    height: 180px;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .warframe_video {
+    width: 280px;
+    height: 180px;
+  }
+  .meet {
+    color: white;
+  }
+}

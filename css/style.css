@@ -34,24 +34,24 @@ header {
 .barukk {
   display:flex;
   justify-content: end;
-  animation-name: in-left;
+  animation-name: barukk_animation;
   animation-duration: 4s;
   padding-left: 20px;
   animation-direction: normal;
 }
 
-@keyframes in-left {
+@keyframes barukk_animation {
   0% { opacity: 0; margin-left: 100%;}
   100% { opacity: 100%; margin-left: 0%;}
 }
 
 .mesa {
-  animation-name: in-right;
+  animation-name: mesa_animation;
   animation-duration: 5s;
   animation-direction: normal;
 }
 
-@keyframes in-right {
+@keyframes mesa_animation {
   0% { opacity: 0; margin-right: 100%;}
   100% { opacity: 100%; margin-right: 0%;}
 }

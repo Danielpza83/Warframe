@@ -1,7 +1,41 @@
-$background_menu: #F8F9FA;
-$margin_menu: 50px;
+body {
+  background: $background_index_image;
+  background-color: $background_color_default;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
 header {
   background-color: $background_menu;
   margin-bottom: $margin_menu;
+
+  #warframe_logo {
+    height: $logo_height;
+    width: $logo_width;
+  }
 }
+
+.excalibur {
+  display:flex;
+  justify-content: center;
+  animation-name: excalibur_animation;
+  animation-duration: 5s;
+  animation-direction: normal;
+}
+.barukk {
+  display:flex;
+  justify-content: end;
+  animation-name: barukk_animation;
+  animation-duration: 4s;
+  padding-left: 20px;
+  animation-direction: normal;
+}
+.mesa {
+  animation-name: mesa_animation;
+  animation-duration: 5s;
+  animation-direction: normal;
+}
+@import "animations";
+@import "responsiveness";
+

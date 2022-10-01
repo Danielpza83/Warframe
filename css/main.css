@@ -1,3 +1,91 @@
+body {
+  background: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/clans/4437469/74c74cc4ba3ef390e8cf7e11bddeea25857a6c5a.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
 header {
   background-color: #F8F9FA;
   margin-bottom: 50px; }
+  header #warframe_logo {
+    height: 100px;
+    width: 400px; }
+
+.excalibur {
+  display: flex;
+  justify-content: center;
+  animation-name: excalibur_animation;
+  animation-duration: 5s;
+  animation-direction: normal; }
+
+.barukk {
+  display: flex;
+  justify-content: end;
+  animation-name: barukk_animation;
+  animation-duration: 4s;
+  padding-left: 20px;
+  animation-direction: normal; }
+
+.mesa {
+  animation-name: mesa_animation;
+  animation-duration: 5s;
+  animation-direction: normal; }
+
+@keyframes excalibur_animation {
+  0% {
+    opacity: 0;
+    top: 100%; }
+  100% {
+    opacity: 100%;
+    top: 0%; } }
+
+@keyframes barukk_animation {
+  0% {
+    opacity: 0;
+    margin-left: 100%; }
+  100% {
+    opacity: 100%;
+    margin-left: 0%; } }
+
+@keyframes mesa_animation {
+  0% {
+    opacity: 0;
+    margin-right: 100%; }
+  100% {
+    opacity: 100%;
+    margin-right: 0%; } }
+
+@media screen and (max-width: 1480px) {
+  .warframe_video {
+    width: 631px;
+    height: 355px; } }
+
+@media screen and (max-width: 1024px) {
+  .warframe_video {
+    width: 473px;
+    height: 266px; }
+  .excalibur {
+    width: 100%;
+    height: 100%; } }
+
+@media screen and (max-width: 800px) {
+  .warframe_video {
+    width: 315px;
+    height: 178px;
+    justify-content: center; }
+  .mesa {
+    display: none; }
+  .barukk {
+    display: none; }
+  .excalibur {
+    width: 280px;
+    height: 180px;
+    align-self: center; } }
+
+@media screen and (max-width: 420px) {
+  .warframe_video {
+    width: 280px;
+    height: 180px; }
+  .meet {
+    color: white; } }
