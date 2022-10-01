@@ -1,9 +1,9 @@
 body {
   background: $background_index_image;
   background-color: $background_color_default;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background-repeat: $background_repeat;
+  background-attachment: $background_attachment;
+  background-size: $background_size;
 }
 
 .excalibur {
@@ -26,6 +26,3 @@ body {
   animation-duration: 5s;
   animation-direction: normal;
 }
-@import "animations";
-@import "responsiveness";
-

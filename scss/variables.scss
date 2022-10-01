@@ -1,9 +1,15 @@
 
 $background_menu: #F8F9FA;
 $background_index_image: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/clans/4437469/74c74cc4ba3ef390e8cf7e11bddeea25857a6c5a.jpg");
+$background_join_the_guild_image: url("../Imagenes/background/backgroundguild.webp");
 $background_color_default: white;
+$background_repeat: no-repeat;
+$background_attachment: fixed;
+$background_size: cover;
 
 $margin_menu: 50px;
 $logo_height: 100px;
 $logo_width: 400px;
 
+$guild_form_height: 100%;
+$guild_form_width: 40%;

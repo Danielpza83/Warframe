@@ -1,0 +1,47 @@
+.guild {
+  background: $background_join_the_guild_image;
+  background-color: $background_color_default;
+  background-repeat: $background_repeat;
+  background-attachment: $background_attachment;
+  background-size: $background_size;
+  color: white;
+}
+
+#guild_form {
+  width: $guild_form_width;
+  height: $guild_form_height;
+}
+
+.rule1 {
+  animation-name: rule;
+  animation-duration: 1s;
+  animation-direction: normal;
+}
+
+.rule2 {
+  animation-name: rule;
+  animation-duration: 1.5s;
+  animation-direction: normal;
+
+}
+
+.rule3 {
+  animation-name: rule;
+  animation-duration: 2s;
+  animation-direction: normal;
+
+}
+
+.rule4 {
+  animation-name: rule;
+  animation-duration: 2.5s;
+  animation-direction: normal;
+
+}
+
+.rule5 {
+  animation-name: rule;
+  animation-duration: 3s;
+  animation-direction: normal;
+
+}
