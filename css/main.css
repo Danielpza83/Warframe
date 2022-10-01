@@ -1,16 +1,16 @@
-body {
-  background: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/clans/4437469/74c74cc4ba3ef390e8cf7e11bddeea25857a6c5a.jpg");
-  background-color: white;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover; }
-
 header {
   background-color: #F8F9FA;
   margin-bottom: 50px; }
   header #warframe_logo {
     height: 100px;
     width: 400px; }
+
+body {
+  background: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/clans/4437469/74c74cc4ba3ef390e8cf7e11bddeea25857a6c5a.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
 
 .excalibur {
   display: flex;
