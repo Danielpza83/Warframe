@@ -65,9 +65,9 @@ body {
   .warframe_video {
     width: 473px;
     height: 266px; }
-  .excalibur {
-    width: 100%;
-    height: 100%; } }
+  #excalibur_index {
+    width: 220px;
+    height: 300px; } }
 
 @media screen and (max-width: 800px) {
   .warframe_video {
@@ -78,14 +78,16 @@ body {
     display: none; }
   .barukk {
     display: none; }
-  .excalibur {
-    width: 280px;
-    height: 180px;
-    align-self: center; } }
+  #excalibur_index {
+    width: 220px;
+    height: 300px; } }
 
 @media screen and (max-width: 420px) {
   .warframe_video {
     width: 280px;
     height: 180px; }
+  #excalibur_index {
+    width: 120px;
+    height: 200px; }
   .meet {
     color: white; } }
