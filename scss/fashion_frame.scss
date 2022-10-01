@@ -1,0 +1,16 @@
+.fashion {
+    background: $background_fashion_frame_image;
+    background-color: $background_color_default;
+    background-repeat: $background_repeat;
+    background-attachment: $background_attachment;
+    background-size: $background_size;
+    color: $font_color;
+    p {
+      font-size: 20px;
+    }
+  }
+
+  #fashion_form {
+    width: $fashion_form_width;
+    height: $fashion_form_height;
+  }

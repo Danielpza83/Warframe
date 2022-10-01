@@ -39,6 +39,11 @@
     width: 100%;
     height: 100%;
   }
+
+  #fashion_form {
+    width: 70%;
+    height: 100%;
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -54,6 +59,10 @@
     color: white;
   }
   #guild_form {
+    width: 100%;
+  }
+
+  #fashion_form {
     width: 100%;
   }
 }
