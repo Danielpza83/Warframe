@@ -7,7 +7,7 @@ body {
 }
 
 .guild {
-  background: url("C:/Users/dmaestre/Desktop/Coderhouse/Imagenes/background/backgroundguild.webp");
+  background: url("../Imagenes/background/backgroundguild.webp");
   background-color: white;
   background-repeat: no-repeat;
   background-attachment: fixed;
