@@ -76,7 +76,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   color: white; }
-  .fashion p {
+  .fashion p, .fashion .members h1, .members .fashion h1, .fashion .members h2, .members .fashion h2, .fashion .members footer, .members .fashion footer {
     font-size: 20px; }
 
 #fashion_form {
@@ -90,13 +90,32 @@ body {
   background-attachment: fixed;
   background-size: cover;
   color: white; }
-  .missions p {
+  .missions p, .missions .members h1, .members .missions h1, .missions .members h2, .members .missions h2, .missions .members footer, .members .missions footer {
     font-size: 20px; }
 
 .missions_form {
   display: flex;
   justify-content: center;
   font-size: large; }
+
+.members {
+  background: url("../Imagenes/background/background_members.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white; }
+  .members p, .members h1, .members h2, .members footer {
+    font-size: 30px;
+    color: gold;
+    text-shadow: 2px 2px 3px black; }
+  .members h1 {
+    align-items: center;
+    text-align: center; }
+  .members hr {
+    height: 5px;
+    background-color: gold;
+    border: none; }
 
 @keyframes excalibur_animation {
   0% {

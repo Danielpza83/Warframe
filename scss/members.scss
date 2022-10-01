@@ -1,0 +1,34 @@
+.members {
+  background: $background_members_image;
+  background-color: $background_color_default;
+  background-repeat: $background_repeat;
+  background-attachment: $background_attachment;
+  background-size: $background_size;
+  color: $font_color;
+  p{
+    font-size: 30px;
+    color: $text_color_members;
+    text-shadow: $text_shadow_members;
+  }
+
+  h1 {
+    @extend p;
+    align-items: center;
+    text-align: center;
+  }
+
+  h2 {
+    @extend p
+  }
+
+  hr{
+    height: 5px;
+    background-color: $text_color_members;
+    border: none;
+}
+
+  footer {
+    @extend p
+  }
+
+}
