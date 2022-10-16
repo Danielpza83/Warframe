@@ -122,6 +122,16 @@ body {
     background-color: gold;
     border: none; }
 
+.thank_you {
+  background: url("../Imagenes/background/thank_you_background.jpg");
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white; }
+  .thank_you p, .thank_you .members h1, .members .thank_you h1, .thank_you .members h2, .members .thank_you h2, .thank_you .members footer, .members .thank_you footer {
+    font-size: 170%; }
+
 @keyframes excalibur_animation {
   0% {
     opacity: 0;
