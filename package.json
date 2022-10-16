@@ -1,7 +1,6 @@
 {
   "name": "coderhouse",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "abbrev": "^1.1.1",
@@ -241,7 +240,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/main.scss css/main.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
-
   },
   "repository": {
     "type": "git",
@@ -253,5 +251,6 @@
   "bugs": {
     "url": "https://github.com/Danielpza83/Warframe/issues"
   },
-  "homepage": "https://github.com/Danielpza83/Warframe#readme"
+  "homepage": "https://github.com/Danielpza83/Warframe#readme",
+  "description": ""
 }

@@ -6,5 +6,12 @@ header {
     height: $logo_height;
     width: $logo_width;
   }
+
+  #current {
+    color: darkblue;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    font-size: 120%;
+  }
 }
 

@@ -4,6 +4,11 @@ header {
   header #warframe_logo {
     height: 100px;
     width: 400px; }
+  header #current {
+    color: darkblue;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    font-size: 120%; }
 
 body {
   background: url("https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/clans/4437469/74c74cc4ba3ef390e8cf7e11bddeea25857a6c5a.jpg");
